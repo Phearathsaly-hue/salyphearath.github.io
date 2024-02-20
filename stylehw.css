@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+boby{
+    font-family: sans-serif;
+}
+.product-card{
+    display: flex;
+    justify-content: center;
+    column-gap: 4rem;
+    border: 20px solid brown;
+}
+.product-img{
+    width: 400px;
+}
+.product-img > img{
+    width: 100%;
+}
+.heading,.price{
+    text-align: center;
+}
+h1,p,button{
+    font-size: 3rem;
+}
+.product-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
